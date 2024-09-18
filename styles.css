@@ -1,13 +1,112 @@
 /*
 style.css
 --------- 
-Par Alicia Walter
 */
 
+
+/* Chargement des Polices */
+@font-face{
+    font-family: 'AlexBrush-Regular';
+    src: url('polices/AlexBrush-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik-Regular';
+    src: url('polices/Rubik-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'AmaticSC-Regular';
+    src: url('polices/AmaticSC-Regular.ttf');
+}
+
+/* Eléments principaux de la page */
+
+body{
+	color:#353535; /* couleur police */
+	font-family:Rubik-Regular, Arial, serif; /* police */
+	font-size:1em; /* taille police */
+    text-align: justify;
+}
+
 h1{
-	color : red ;
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+	font-size: 3em;  /* taille police */
+	color:#353535;  /* couleur police */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h2{
-	color : green ;
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+	font-size: 2.5em; /* taille police */
+	color:#353535 /* couleur police */
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 100px;
 }
+
+h3{
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+	font-size: 2em; /* taille police */
+	color:#353535 /* couleur police */
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 150px;
+}
+
+p, ul{
+	font-family: AlexBrush-Regular, Arial, serif; /* police */
+	font-size: 1.25em; /* taille police */
+	color:#353535 /* couleur police */
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+/*##############*/
+/* Navigation */
+/*##############*/
+
+nav ul{
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+	width:auto; /* largeur */
+    color: #353535; /* couleur */
+	font-size: 2.5em; /* taille police */
+}
+
+nav li{
+	display : inline;
+}
+
+nav a:hover{ /* Quand le visiteur passe au dessus avec la souris */
+
+    color: #760001; /* Appliquer une couleur bordeaux */
+    border-bottom: 3px solid #760001; /* souligne */
+}
+
+a{
+text-decoration:none; /* enleve le trait dessous */
+}
+
+/*##############*/
+/* CLASS */
+/*##############*/
+.q
+{
+	font-style:italic;
+}
+
+.box1 {
+  background: #F68265;
+}
+
+.box2 {
+  background: #FCF5D9;
+}
+
+.box3 {
+  background: #FFFFFF;
+}
+
