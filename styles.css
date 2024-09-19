@@ -23,6 +23,7 @@ style.css
 /* Eléments principaux de la page */
 
 body{
+    margin: 0;
 	color:#353535; /* couleur police */
 	font-family:Rubik-Regular, Arial, serif; /* police */
 	font-size:1em; /* taille police */
@@ -31,7 +32,7 @@ body{
 
 h1{
 	font-family: AmaticSC-Regular, Arial, serif; /* police */
-	font-size: 3em;  /* taille police */
+	font-size: 4em;  /* taille police */
 	color:#353535;  /* couleur police */
     text-align: center;
     margin-top: 50px;
@@ -70,15 +71,14 @@ p, ul{
 /* Navigation */
 /*##############*/
 
-nav ul{
-	font-family: AmaticSC-Regular, Arial, serif; /* police */
-	width:auto; /* largeur */
-    color: #353535; /* couleur */
-	font-size: 2.5em; /* taille police */
-}
 
 nav li{
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+    color: #353535; /* couleur */
+	font-size: 2em; /* taille police */
 	display : inline;
+    padding: 0.5em;
+    margin: 10px 10px 10px 10px;
 }
 
 nav a:hover{ /* Quand le visiteur passe au dessus avec la souris */
