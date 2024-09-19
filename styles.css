@@ -116,3 +116,32 @@ text-decoration:none; /* enleve le trait dessous */
 	max-width: 100%;
     height: auto;
 }
+.ListeClic{
+	font-family: AmaticSC-Regular, Arial, serif; /* police */
+	font-size: 2em; /* taille police */
+	color:#353535 /* couleur police */
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 150px;
+}
+
+
+/*##################*/
+/* Liste déroulante */
+/*##################*/
+
+/* cacher la liste */
+input + label + ul {
+  display: none;
+}
+
+/* rendre clicable le titre */
+input:checked + label + ul {
+  display: block;
+}
+
+/* supprimer la checkbox */
+[type="checkbox"],
+[type="radio"] {
+  display: none;
+}
