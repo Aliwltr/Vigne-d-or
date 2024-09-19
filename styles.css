@@ -40,11 +40,11 @@ h1{
 
 h2{
 	font-family: AmaticSC-Regular, Arial, serif; /* police */
-	font-size: 2.5em; /* taille police */
+	font-size: 4em; /* taille police */
 	color:#353535 /* couleur police */
     margin-top: 50px;
+    text-align: center;
     margin-bottom: 50px;
-	margin-left: 100px;
 }
 
 h3{
@@ -63,6 +63,7 @@ p, ul{
     margin-top: 50px;
     margin-bottom: 50px;
 	margin-left: 50px;
+	margin-right: 50px;
 }
 
 /*##############*/
@@ -100,6 +101,7 @@ text-decoration:none; /* enleve le trait dessous */
 
 .box1 {
   background: #F68265;
+  width=
 }
 
 .box2 {
@@ -110,3 +112,7 @@ text-decoration:none; /* enleve le trait dessous */
   background: #FFFFFF;
 }
 
+.img{
+	max-width: 100%;
+    height: auto;
+}
